@@ -1,6 +1,6 @@
 
 function upper() {
-    const textInput = [] = document.getElementById("text").value
+    const textInput = document.getElementById("text").value
     document.getElementById('txtReadyonly').value = (textInput.toUpperCase())
 }
 
@@ -17,7 +17,7 @@ function init() {
 function limpar() {
     let x = confirm("Deseja limpar o texto?") 
     if(x == true) {
-        alert("sim")
+        alert("Em branco...")
     } else {
         alert('Não')
     }   
