@@ -31,8 +31,9 @@ form {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 1000px;
-    background: chartreuse;
+    /* width: 1000px; */
+    background: rgba(128, 255, 0, 0.357);
+    border-radius: 6px;
 }
 
 .containerTxt {
@@ -67,6 +68,7 @@ input {
     text-align: center;
     padding: 2px;
     border-radius: 5px;
+    box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.582);
 }
 
 #btnLimpar {
@@ -76,9 +78,11 @@ input {
     padding: 2px;
     background: rgba(225, 0, 0, 0.878);
     color: white;
+    box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.582);
+    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
     .containerBtns {
         display: flex;
         flex-direction: row;
@@ -91,6 +95,20 @@ input {
     .btns {
         width: 100px;
     }
+
+    @media screen and (max-width: 550px) {
+        .containerBtns {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        input {
+            width: 400px;
+        }
+    
+        .btns {
+            width: 80px;
+        }
 }
 
 
