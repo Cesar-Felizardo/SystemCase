@@ -11,14 +11,15 @@ function lower() {
 
 function init() {
     const textInput = document.getElementById("text").value
-    document.getElementById('txtReadyonly').value = (textInput[0].toUpperCase() + textInput.slice(1))
+    const txtReadyonly = document.getElementById('txtReadyonly')
+    txtReadyonly.value = (textInput[0].toUpperCase() + textInput.slice(1))
 }
 
 function limpar() {
-    let x = confirm("Deseja limpar o texto?") 
+   /*  let x = confirm("Deseja limpar o texto?") 
     if(x == true) {
         alert("Em branco...")
     } else {
         alert('Não')
-    }   
+    }   */ 
 }

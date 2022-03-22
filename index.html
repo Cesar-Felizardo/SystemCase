@@ -19,17 +19,19 @@
         </div>
         <section>
             <form>
-                <div class="containerTxt">
-                    <input id="text" type="text">
-                </div>
                 <div class="containerBtns">
-                    <input class="btns" type="button" value=" Maiusculo" onclick="upper()">
-                    <input class="btns" type="button" value=" Minusculo" onclick="lower()">
+                    <input class="btns" type="button" value=" Letra maiuscula" onclick="upper()">
+                    <input class="btns" type="button" value=" Letra minuscula" onclick="lower()">
                     <input class="btns" type="button" value=" inicial maiuscula" onclick="init()">
                     <input class="btns" id="btnLimpar" type="reset" value="Limpar" onclick="limpar()">
                 </div>
-                <div class="containercontainerTxt">
-                    <input id="txtReadyonly" readonly type="text">
+
+                <div class="containerTxt">
+                    <textarea placeholder="DIGITE AQUI O SEU TEXTO..." cols="64" id="text" type="text"></textarea>
+                </div>
+
+                <div class="containerTxt">
+                    <textarea placeholder="O TEXTO CONVERTIDO APARECERÁ AQUI." cols="64" id="txtReadyonly" readonly type="text"></textarea>
                 </div>
             </form>
         </section>
