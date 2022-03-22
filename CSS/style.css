@@ -9,6 +9,10 @@ main {
     background-image: linear-gradient(to top, rgba(54, 37, 37, 0.713), rgb(69, 23, 196));
 }
 
+p {
+    color: aliceblue;
+}
+
 .containerH1 {
     width: 100%;
     text-align: center;
