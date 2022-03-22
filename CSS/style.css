@@ -110,5 +110,15 @@ input {
             width: 80px;
         }
 }
+    
+    @media screen and (max-width: 490px) {
+    input {
+        width: 300px;
+    }
+
+    .btns {
+        width: 80px;
+    }
+}
 
 
