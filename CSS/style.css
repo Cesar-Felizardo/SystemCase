@@ -2,13 +2,22 @@
     margin:auto;
 }
 
+
+body {
+    /* background: brown; */
+}
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+<<<<<<< HEAD
     width: 80%;
     border-right: 1px solid #000;
     border-left: 1px solid #000;
+=======
+    /* background-image: linear-gradient(to top, rgba(54, 37, 37, 0.713), rgb(69, 23, 196)); */
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
 }
 
 .containerH1 {
@@ -28,6 +37,10 @@ section {
     display: flex;
     align-items: center;
     height: 500px;
+<<<<<<< HEAD
+=======
+    /* background: blue; */
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
     width: 90%;
     justify-content: center;
 }
@@ -37,8 +50,15 @@ form {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+<<<<<<< HEAD
     border-radius: 2px;
     width: 90%;
+=======
+    /* background: rgba(128, 255, 0, 0.179); */
+    border-radius: 2px;
+    width: 90%;
+    /* background-color: orange; */
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
 }
 
 .containerTxt {
@@ -69,11 +89,20 @@ textarea {
 
 .containerBtns {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
     /* background: aquamarine; */
+=======
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background: crimson; */
+    width: 80%;
+    padding: 20px ;
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
 }
 
 .btns {
@@ -82,17 +111,27 @@ textarea {
     text-align: center;
     border-radius: 5px;
     box-shadow: 4px 2px 9px 0px rgba(0, 0, 0, 0.24);
+<<<<<<< HEAD
     border: 1;
     background: rgba(2, 232, 29, 0.275);
     margin: 10px 15px 0px 0px;
     color: #000;
+=======
+    border: 0;
+    background: rgb(2, 120, 232);
+    margin: 5px 4px 0px 0px;
+    color: white;
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
     font-weight: 400;
 }
 
 .btns:hover {
     background: blue;
     cursor: pointer;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
 }
 
 #btnLimpar {
@@ -146,6 +185,12 @@ textarea {
     }
 
     .btns {
+<<<<<<< HEAD
         width: 120px;
     }
 }
+=======
+        width: 80px;
+    }
+}
+>>>>>>> 6fb727c8899a1838774e3eea82488ac70ba86019
