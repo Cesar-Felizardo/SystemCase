@@ -7,7 +7,6 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     width: 80%;
-    /* background: brown; */
     border-right: 1px solid #000;
     border-left: 1px solid #000;
 }
