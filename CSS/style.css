@@ -1,6 +1,12 @@
 * {
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 main {
     display: flex;
@@ -9,8 +15,14 @@ main {
     background-image: linear-gradient(to top, rgba(54, 37, 37, 0.713), rgb(69, 23, 196));
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
 p {
+    margin-top: 15px;
     color: aliceblue;
+    font-family: 'Roboto', sans-serif;
 }
 
 .containerH1 {
@@ -94,11 +106,14 @@ textarea {
     margin: 10px 4px 0px 0px;
     color: rgb(38, 38, 38);
     font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(123, 97, 50);
 }
 
 .btns:hover {
     background: blue;
     cursor: pointer;
+    color: white;
 }
 
 #btnLimpar {
